@@ -1,0 +1,4 @@
+file_extension_name={"py":"Python","c":"C programming","cpp":"C++","html":"HTML","docx":"MS Word","pdf":"PDF"}
+file_name=input("Enter file name: ")
+file_extension=file_name.split(".")
+print("The extension of file type is",file_extension_name[file_extension[-1]])
