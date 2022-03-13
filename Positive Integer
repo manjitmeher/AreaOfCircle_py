@@ -1,0 +1,6 @@
+mylist = [1, 2, 3, 4, 5]
+for i in range(0, 5):
+    mylist[i] = int(input(""))
+for i in range(0,5):
+    if mylist[i]>0:
+        print(mylist[i])
