@@ -1,0 +1,6 @@
+st = input("enter string: ")
+d = {}
+for ch in st:
+    d[ch] = d.get(ch, 0)+1
+for key, value in sorted(d.items(), key=lambda value: value[1], reverse=True):
+    print(key, "=", value)
